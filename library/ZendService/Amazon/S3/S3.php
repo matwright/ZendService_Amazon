@@ -17,6 +17,7 @@ use Zend\Http\Response\Stream as StreamResponse;
 use ZendService\Amazon;
 use ZendService\Amazon\S3\Exception;
 use Zend\Uri;
+use Zend\Http\Client as HttpClient;
 
 /**
  * Amazon S3 PHP connection class
